@@ -5,10 +5,13 @@ title = "Forty"
 theme = "forty"
 
 # Enter your tracking code to enable Google Analytics
-googleAnalytics = ""
+[services]
+  [services.googleAnalytics]
+    id = 'G-XXXXXXXXX'
 
 # Enter your disqus shortname to enable comments
-disqusShortname = ""
+  [services.disqus]
+    shortname = ""
 
 [params]
   # You can use Markdown syntax for urls [text](//url.to/source)
